@@ -43,6 +43,11 @@ public class Circulo {
     }
     
 
+    /**
+     * Calcular area del  circulo
+     * @return un valor que contiene el area
+     * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html">Clase Math de Java</a>
+     */
     public double calcularArea(){
     return Math.PI*radio*radio;
     }
